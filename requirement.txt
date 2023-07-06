@@ -1,0 +1,11 @@
+pandas as pd
+streamlit as st
+docx2txt
+nltk
+sent_tokenize
+word_tokenize
+stopwords
+helper
+StringIO
+requests
+BeautifulSoup
