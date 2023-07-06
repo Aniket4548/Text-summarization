@@ -10,6 +10,7 @@ from io import StringIO
 import requests
 from bs4 import BeautifulSoup
 nltk.download('punkt')
+nltk.download('stopwords')
 st.set_page_config(layout="wide")
 
 
