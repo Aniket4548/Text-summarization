@@ -10,6 +10,7 @@ import helper
 from io import StringIO
 import requests
 from bs4 import BeautifulSoup
+nltk.download('punkt')
 
 st.title("Text Summarization")
 user_input = st.radio("Choose ",("Text","File","Link"),horizontal=True)
