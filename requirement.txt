@@ -1,11 +1,6 @@
-pandas as pd
-streamlit as st
-docx2txt
-nltk
-sent_tokenize
-word_tokenize
-stopwords
-helper
-StringIO
-requests
-BeautifulSoup
+pandas==2.0.2
+streamlit==1.23.1
+docx2txt==0.8
+nltk==3.8.1
+requests==2.30.0
+bs4==0.0.1
