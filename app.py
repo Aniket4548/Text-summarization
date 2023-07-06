@@ -16,14 +16,14 @@ user_input = st.radio("Choose ",("Text","File","Link"),horizontal=True)
 if user_input == "Text":
     text = st.text_input("Enter Your Text")
     num_sentences = int(st.number_input("Enter number of Line"))
-    if st.button('submit'):
+    if st.button('Submit'):
         summary = helper.summary(text,num_sentences)
         st.write(summary)
         st.write(summary)
 elif user_input == "File":
     uploaded_file = st.file_uploader("Choose a file")
     num_sentences = int(st.number_input("Enter number of Line"))
-    if st.button("submit"):
+    if st.button("Submit"):
         # To convert to a string based IO:
         stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
         # To read file as string:
